@@ -1,0 +1,120 @@
+/*HEADER*/
+header{
+background-color: #C0C0C0;
+color: #ffffff;
+font-size: 18px;
+font-family: verdana;
+font-weight: bold;
+text-align: center;
+padding: 5px 5px 5px 5px;
+}
+
+.headertekst a:link {
+  color: #000000;
+}
+
+.headertekst a:visited {
+  color: #000000;
+}
+
+.headertekst a:hover {
+  color: #808080;
+}
+
+.headertekst a:active {
+  color: #808080;
+}
+
+/*BODY*/
+body{
+background-color: #808080;
+color: #FFFFFF;
+font-family: verdana;
+text-align: left;
+margin-left: 5px; margin-right: 5px;
+padding: 5px 5px 5px 5px;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/*OVER MIJ*/
+img.right {
+  float: right;
+  margin: 0.5em 0 1em 1em;
+  lear: right;
+}
+
+/*CONTACT*/
+img.left {
+  float: left;
+  margin: 0.5em 0 1em 1em;
+  lear: left;
+}
+
+.button2 {
+  transition-duration: 0.4s;
+  background-color: #ffffff;
+  color: #0b0b54;
+}
+
+.button2:hover {
+  background-color: #C0C0C0;
+  color: #000000;
+}
+
+.button2:active{
+  background-color: #C0C0C0;
+  color: #000000;
+}
+
+.button2:focus{
+  background-color: #C0C0C0;
+  color: #000000;
+}
+
+.input {
+  font-family: verdana;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #000000;
+}
+
+::-ms-input-placeholder {
+  color: #000000;
+}
+
+
+/*FOOTER*/
+div.containerfooter {
+    position: relative;
+    background-color: #C0C0C0;
+    color: #808080;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-family: verdana;
+    font-size: 18px;
+    height: 200px;
+    }
+div.containerfooter p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
